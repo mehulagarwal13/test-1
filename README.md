@@ -24,3 +24,12 @@ This repository does not yet contain an application entry point. "Working locall
 3. Commit your changes on a feature branch and open a pull request for review.
 
 As real application code is added, this section should be updated with the actual run command.
+
+## Repository Structure
+
+```text
+test-1/
+└── README.md   # Project documentation (this file)
+```
+
+This structure is intentionally minimal today. As the project grows, keep this section in sync with the actual top-level layout.
