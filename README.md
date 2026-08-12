@@ -14,3 +14,13 @@ cd test-1
 ```
 
 No package installation step is required to read or edit the documentation in this repository.
+
+## Running Locally
+
+This repository does not yet contain an application entry point. "Working locally" currently means:
+
+1. Open the repository in your editor of choice.
+2. Edit `README.md` or add new files under a clearly named directory (e.g. `docs/`, `tests/`).
+3. Commit your changes on a feature branch and open a pull request for review.
+
+As real application code is added, this section should be updated with the actual run command.
