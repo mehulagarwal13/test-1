@@ -47,3 +47,10 @@ git push origin docs/my-update
 ```
 
 Then open a pull request describing the change.
+
+## Contributing
+
+1. Fork or branch from the repository's default branch.
+2. Make focused, small commits with clear messages (e.g. `docs: ...`, `test: ...`).
+3. Open a pull request describing what changed and why.
+4. Keep pull requests scoped to one topic to make review easier.
