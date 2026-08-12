@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository is a small example/test project used to verify GitHub development workflows -- branching, committing, opening pull requests, and tracking work through issues. It intentionally has a minimal codebase so that changes here are easy to review and safe to experiment with.
+This repository is a small example/test project used to verify GitHub development workflows: branching, committing, opening pull requests, and tracking work through issues. It intentionally has a minimal codebase so that changes here are easy to review and safe to experiment with.
 
 ## Installation
 
-This repository has no build tooling or external dependencies. To get a local copy:
+This repository has no build tooling or external dependencies.
 
 ```bash
 git clone https://github.com/mehulagarwal13/test-1.git
@@ -20,10 +20,10 @@ No package installation step is required to read or edit the documentation in th
 This repository does not yet contain an application entry point. "Working locally" currently means:
 
 1. Open the repository in your editor of choice.
-2. Edit `README.md` or add new files under a clearly named directory (e.g. `docs/`, `tests/`).
+2. Edit `README.md`, or add new files under a clearly named directory (e.g. `docs/`, `tests/`).
 3. Commit your changes on a feature branch and open a pull request for review.
 
-As real application code is added, this section should be updated with the actual run command.
+As real application code is added, update this section with the actual run command.
 
 ## Repository Structure
 
@@ -36,7 +36,7 @@ This structure is intentionally minimal today. As the project grows, keep this s
 
 ## Usage Example
 
-As a documentation-only repository, the most common "usage" is contributing an update:
+The most common "usage" of a documentation-only repository is contributing an update:
 
 ```bash
 git checkout -b docs/my-update
@@ -50,14 +50,14 @@ Then open a pull request describing the change.
 
 ## Contributing
 
-1. Fork or branch from the repository's default branch.
-2. Make focused, small commits with clear messages (e.g. `docs: ...`, `test: ...`).
+1. Branch from the repository's default branch.
+2. Make focused, small commits with clear messages (`docs: ...`, `test: ...`).
 3. Open a pull request describing what changed and why.
 4. Keep pull requests scoped to one topic to make review easier.
 
 ## Testing
 
-A lightweight validation script lives at `tests/validate_repo.py`. It checks that core documentation files exist and are non-empty -- a minimal sanity check appropriate for a documentation-focused repository. Run it with:
+A lightweight validation script lives at `tests/validate_repo.py`. It checks that core documentation files exist and are non-empty -- a minimal sanity check appropriate for a documentation-focused repository.
 
 ```bash
 python tests/validate_repo.py
