@@ -33,3 +33,17 @@ test-1/
 ```
 
 This structure is intentionally minimal today. As the project grows, keep this section in sync with the actual top-level layout.
+
+## Usage Example
+
+As a documentation-only repository, the most common "usage" is contributing an update:
+
+```bash
+git checkout -b docs/my-update
+# edit README.md
+git add README.md
+git commit -m "docs: describe my update"
+git push origin docs/my-update
+```
+
+Then open a pull request describing the change.
