@@ -37,3 +37,13 @@ Before requesting review, confirm:
 - [ ] Commits are focused and use conventional messages
 - [ ] `python tests/validate_repo.py` passes locally (if present)
 - [ ] Any related issue is linked in the PR description
+
+## Local Testing
+
+This repository has no build step. If `tests/validate_repo.py` exists, run it with:
+
+```bash
+python tests/validate_repo.py
+```
+
+Add new checks to that script rather than creating a parallel test runner.
