@@ -9,3 +9,12 @@ Before opening a new issue, search existing issues to avoid duplicates. When fil
 - A clear, descriptive title
 - What you expected to happen vs. what actually happened
 - Steps to reproduce, if applicable
+
+## Branch Naming
+
+Use a short, descriptive prefix that matches the kind of change:
+
+- `docs/<topic>` for documentation-only changes
+- `test/<topic>` for test-only changes
+- `fix/<topic>` for bug fixes
+- `feature/<topic>` for new functionality
