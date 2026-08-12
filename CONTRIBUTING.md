@@ -47,3 +47,7 @@ python tests/validate_repo.py
 ```
 
 Add new checks to that script rather than creating a parallel test runner.
+
+## Review Process
+
+Every pull request should have at least one review before merging. Reviewers should check correctness, clarity, and scope (does this PR do one thing well?). Address review feedback with new commits rather than force-pushing over history, unless the reviewer asks otherwise.
