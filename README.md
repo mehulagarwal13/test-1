@@ -29,14 +29,16 @@ As real application code is added, update this section with the actual run comma
 
 ```text
 test-1/
-└── README.md   # Project documentation (this file)
+├── README.md               # Project documentation (this file)
+└── tests/
+    └── validate_repo.py    # Lightweight documentation sanity check
 ```
 
-This structure is intentionally minimal today. As the project grows, keep this section in sync with the actual top-level layout.
+Keep this section in sync with the actual top-level layout as the project grows.
 
 ## Usage Example
 
-The most common "usage" of a documentation-only repository is contributing an update:
+The most common "usage" of a documentation-focused repository is contributing an update:
 
 ```bash
 git checkout -b docs/my-update
@@ -62,3 +64,7 @@ A lightweight validation script lives at `tests/validate_repo.py`. It checks tha
 ```bash
 python tests/validate_repo.py
 ```
+
+## License
+
+No license has been specified for this repository yet. Add a `LICENSE` file if you intend to distribute or open this project to external contributors.
