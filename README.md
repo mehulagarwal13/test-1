@@ -54,3 +54,11 @@ Then open a pull request describing the change.
 2. Make focused, small commits with clear messages (e.g. `docs: ...`, `test: ...`).
 3. Open a pull request describing what changed and why.
 4. Keep pull requests scoped to one topic to make review easier.
+
+## Testing
+
+A lightweight validation script lives at `tests/validate_repo.py`. It checks that core documentation files exist and are non-empty -- a minimal sanity check appropriate for a documentation-focused repository. Run it with:
+
+```bash
+python tests/validate_repo.py
+```
