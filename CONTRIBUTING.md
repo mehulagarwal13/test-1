@@ -18,3 +18,13 @@ Use a short, descriptive prefix that matches the kind of change:
 - `test/<topic>` for test-only changes
 - `fix/<topic>` for bug fixes
 - `feature/<topic>` for new functionality
+
+## Commit Messages
+
+Follow the Conventional Commits style used throughout this repository's history:
+
+```text
+<type>: <short, present-tense summary>
+```
+
+Common types: `docs`, `test`, `fix`, `feature`, `chore`. Keep each commit focused on one logical change.
