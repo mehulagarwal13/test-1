@@ -28,3 +28,12 @@ Follow the Conventional Commits style used throughout this repository's history:
 ```
 
 Common types: `docs`, `test`, `fix`, `feature`, `chore`. Keep each commit focused on one logical change.
+
+## Pull Request Checklist
+
+Before requesting review, confirm:
+
+- [ ] The PR description explains *why*, not just *what*
+- [ ] Commits are focused and use conventional messages
+- [ ] `python tests/validate_repo.py` passes locally (if present)
+- [ ] Any related issue is linked in the PR description
