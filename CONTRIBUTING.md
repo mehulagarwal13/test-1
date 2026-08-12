@@ -1,6 +1,6 @@
 # Contributing to test-1
 
-Thank you for your interest in contributing. This guide is being built up section by section -- see the sections below.
+Thank you for your interest in contributing to `test-1`. This guide covers how to report issues, branch and commit conventions, the pull request checklist, local testing, and the review process.
 
 ## Reporting Issues
 
@@ -51,3 +51,7 @@ Add new checks to that script rather than creating a parallel test runner.
 ## Review Process
 
 Every pull request should have at least one review before merging. Reviewers should check correctness, clarity, and scope (does this PR do one thing well?). Address review feedback with new commits rather than force-pushing over history, unless the reviewer asks otherwise.
+
+## Changelog
+
+Notable changes are tracked in [`CHANGELOG.md`](CHANGELOG.md). Add an entry under `[Unreleased]` for any user-facing change.
